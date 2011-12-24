@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>burct generator</title>
+    <meta name="description" content="">
+    <meta name="author" content="">
+      <script src="http://code.jquery.com/jquery-1.7.min.js"></script>
+     <script type="text/javascript"> 
+function burctuncerol() {
+  
+  
+kim = new Array("battlefield","müzikle alakası olmayanlar", "gerizekalı mikrosoft", "sony", "indie kizlar", "hipster kizlar", "sanatçılar", "ibneler", "beyler"); 
+neyi = new Array("9gagden rsim paylasmayi" ,"fuckyeahsutitles dan profil resmi yapmayi", "bu işleri", "feysbukta fotoşop likelamayı","castleville oynamayı", "tumblrda siksok paylasmayi", "rgb ve üçgen kullanmayı", "resim yapmayı", "uçmayı"); 
+neyapsin = new Array("biraksin", "adet haline getirmesin", "bitirsin", "başkasına devretsin", "denesin", "UNUTSUN!!", "denemesin çünkü ANLAMIYORUM!!1"); 
+
+var rand1 = [Math.floor ( Math.random() * kim.length )]; 
+var rand2 = [Math.floor ( Math.random() * neyi.length )]; 
+var rand3 = [Math.floor ( Math.random() * neyapsin.length )]; 
+
+$("#bto").text(kim[rand1] + " " + neyi[rand2] + " " + neyapsin[rand3] + ".");
+
+// document.write(); 
+  
+}
+
+</script>
+    
+     </head>
+    <body>
+    
+    <div id="bto"></div>
+
+<button onclick="burctuncerol();">burc tuncer ol</button>
+
+
+    </body>
+</html>
